@@ -2,6 +2,9 @@
 
 Mini Pomodoro is a lightweight Chrome extension designed to help you stay focused using the Pomodoro technique. It provides a simple 25-minute focus timer with a clean, distraction-free interface to help build consistent productivity habits.
 
+## 📸 Preview
+![Mini Pomodoro Screenshot](https://github.com/seonaann/Mini-Pomodoro/blob/main/Screenshot%202025-12-27%20222848.png)
+
 ## 🚀 Features
 - 25-minute Pomodoro focus timer
 - Minimal and easy-to-use UI
