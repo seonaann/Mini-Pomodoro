@@ -1,0 +1,72 @@
+body {
+  width: 260px;
+  height: 330px;
+  background: #fdeff4;
+  font-family: "Comic Sans MS", Arial;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background:
+    linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)),
+      url("download.jpg") no-repeat center center / cover;
+}
+
+h3 {
+  margin: 5px;
+}
+
+.clock-container {
+  margin-top: 10px;
+}
+
+.clock {
+  width: 160px;
+  height: 160px;
+  background: #fff7cc;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  animation: breathe 3s infinite ease-in-out;
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+.hand {
+  width: 6px;
+  height: 65px;
+  background: #ff6f91;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform-origin: bottom center;
+  border-radius: 5px;
+}
+
+.face {
+  position: absolute;
+  bottom: 45px;
+  width: 100%;
+  font-size: 22px;
+}
+
+#time {
+  font-size: 26px;
+  margin: 8px 0;
+}
+
+.buttons button {
+  padding: 5px 8px;
+  margin: 4px;
+  border: none;
+  border-radius: 8px;
+  background: #cdb4db;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #a2d2ff;
+}

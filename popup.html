@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <h3>Focus Time</h3>
+
+  <div class="clock-container">
+    <div class="clock">
+      <div class="hand" id="hand"></div>
+      <div class="face">^.^</div>
+    </div>
+  </div>
+
+  <div id="time">25:00</div>
+    
+
+  <div class="buttons">
+    <button id="start">Start</button>
+    <button id="pause">Pause</button>
+    <button id="break">Break</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <audio id="beep">
+    <source src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg">
+  </audio>
+
+  <script src="popup.js"></script>
+</body>
+</html>
